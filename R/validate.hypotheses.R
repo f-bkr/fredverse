@@ -6,7 +6,7 @@
 #' @export
 validate.hypotheses <- function(hypothesis.set){
 
-  known <- c("ordering.gt", "ATT_gt_ATC")                                       # These are the default hypotheses names
+  known <- c("ordering.asc", "ATT_gt_ATC")                                       # These are the default hypotheses names
   unknown <- setdiff(hypothesis.set, known)                                     # Catch all names for custom hypotheses
 
   if (length(unknown) > 0) stop("Unknown hypothesis set(s): ", paste(unknown, collapse = ", "))
