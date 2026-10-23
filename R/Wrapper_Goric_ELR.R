@@ -1,6 +1,6 @@
 #' A function to evaluate informative order and range constraints over different estimands (e.g. Average and Conditional Effects) from the EffectLiteR framework
 #'
-#' @param elr.object An object of class 'effectlite' [package "EffectLiteR"]
+#' @param elr.object An object of class 'effectlite' (package "EffectLiteR")
 #' @param estimand A vector of strings, containing valid estimands from the EffectLiteR Approach
 #' @param hypothesis.set A vector of strings, containing valid predefined hypotheses. Can be left empty for defaults
 #' @param hypotheses.custom A vector of strings containing valid hypotheses
