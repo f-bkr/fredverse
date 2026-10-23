@@ -15,3 +15,5 @@ Config/testthat/edition: 3
 Imports: 
     EffectLiteR,
     restriktor
+URL: https://github.com/f-bkr/fredverse
+BugReports: https://github.com/f-bkr/fredverse/issues
