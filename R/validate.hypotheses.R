@@ -4,8 +4,6 @@
 #'
 #' @returns An error, but ideally nothing
 #' @export
-#'
-#' @examples
 validate.hypotheses <- function(hypothesis.set){
 
   known <- c("ordering.gt", "ATT_gt_ATC")                                       # These are the default hypotheses names
